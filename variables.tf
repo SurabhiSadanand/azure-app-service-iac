@@ -14,3 +14,19 @@ variable "app_service_name" {
     type = string
     default = "webapp-demo-455656"
 }
+variable "client_id" {
+  type = string
+}
+
+variable "client_secret" {
+  type = string
+}
+
+variable "tenant_id" {
+  type = string
+}
+
+variable "subscription_id" {
+  type = string
+}
+
